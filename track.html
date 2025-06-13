@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillForge - Development Tracks</title>
+    <link rel="stylesheet" href="track.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="index.html" class="logo">Skill<span>Forge</span></a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="track.html" class="active">Tracks</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="tracks-container">
+      <div class="container">
+        <h1 style="text-align: center; margin-bottom: 40px; font-size: 36px">
+          Development Tracks
+        </h1>
+
+        <div class="track-tabs">
+          <a href="#frontend" class="track-tab active">Frontend</a>
+          <a href="#backend" class="track-tab">Backend</a>
+          <a href="#fullstack" class="track-tab">Fullstack</a>
+        </div>
+
+        <!-- Frontend Track -->
+        <div id="frontend" class="track-content active">
+          <div class="module" id="html-module">
+            <h2 class="module-title">01 HTML</h2>
+            <div class="progress-container">
+              <div class="progress-bar" id="html-progress"></div>
+            </div>
+            <ul class="topics-list">
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('html')"
+                />
+                <span class="topic-number">01</span>
+                <span>Tags and Elements</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('html')"
+                />
+                <span class="topic-number">02</span>
+                <span>Containers and Text formatting</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('html')"
+                />
+                <span class="topic-number">03</span>
+                <span>Links and Images, Semantic</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('html')"
+                />
+                <span class="topic-number">04</span>
+                <span>Block and Inline elements</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('html')"
+                />
+                <span class="topic-number">05</span>
+                <span>Lists</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('html')"
+                />
+                <span class="topic-number">06</span>
+                <span>Forms</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('html')"
+                />
+                <span class="topic-number">07</span>
+                <span>Adding Multimedia and Files</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('html')"
+                />
+                <span class="topic-number">08</span>
+                <span>Additional Tags</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="module" id="css-module">
+            <h2 class="module-title">02 CSS</h2>
+            <div class="progress-container">
+              <div class="progress-bar" id="css-progress"></div>
+            </div>
+            <ul class="topics-list">
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('css')"
+                />
+                <span class="topic-number">01</span>
+                <span>Introduction to CSS</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('css')"
+                />
+                <span class="topic-number">02</span>
+                <span>Formatting, Units</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('css')"
+                />
+                <span class="topic-number">03</span>
+                <span>Stying, Selectors</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('css')"
+                />
+                <span class="topic-number">04</span>
+                <span>Understanding Stacking Context</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('css')"
+                />
+                <span class="topic-number">05</span>
+                <span>Flexbox and Grid</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('css')"
+                />
+                <span class="topic-number">06</span>
+                <span>Psuedo Classes and Elements</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('css')"
+                />
+                <span class="topic-number">07</span>
+                <span>Transitions and Animations</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('css')"
+                />
+                <span class="topic-number">08</span>
+                <span>Responsive Web Design</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="module" id="js-module">
+            <h2 class="module-title">03 JavaScript</h2>
+            <div class="progress-container">
+              <div class="progress-bar" id="js-progress"></div>
+            </div>
+            <ul class="topics-list">
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('js')"
+                />
+                <span class="topic-number">01</span>
+                <span>Basics of Javascript</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('js')"
+                />
+                <span class="topic-number">02</span>
+                <span>JavaScript Fundamentals</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('js')"
+                />
+                <span class="topic-number">03</span>
+                <span>Functional Programming</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('js')"
+                />
+                <span class="topic-number">04</span>
+                <span>String Methods</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('js')"
+                />
+                <span class="topic-number">05</span>
+                <span>Arrays</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('js')"
+                />
+                <span class="topic-number">06</span>
+                <span>Objects</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('js')"
+                />
+                <span class="topic-number">07</span>
+                <span>More about Functions</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('js')"
+                />
+                <span class="topic-number">08</span>
+                <span>Document Object Model - DOM</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('js')"
+                />
+                <span class="topic-number">09</span>
+                <span>Advanced JS</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('js')"
+                />
+                <span class="topic-number">10</span>
+                <span>Javascript Mini Projects Practice</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="module" id="react-module">
+            <h2 class="module-title">04 React JS</h2>
+            <div class="progress-container">
+              <div class="progress-bar" id="react-progress"></div>
+            </div>
+            <ul class="topics-list">
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">01</span>
+                <span>Introduction</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">02</span>
+                <span>Components and Props</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">03</span>
+                <span>Life Cycle of Components</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">04</span>
+                <span>Events, States</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">05</span>
+                <span>Lists</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">06</span>
+                <span>useRef Hook</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">07</span>
+                <span>useEffect Hook</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">08</span>
+                <span>Fetching Data using Axios</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">09</span>
+                <span>Creating Global State using useContext() Hook</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">10</span>
+                <span>useReducer</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">11</span>
+                <span>useMemo</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">12</span>
+                <span>useCallback</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('react')"
+                />
+                <span class="topic-number">13</span>
+                <span>React Router</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Backend Track -->
+        <div id="backend" class="track-content">
+          <div class="module" id="nodejs-module">
+            <h2 class="module-title">05 NodeJS</h2>
+            <div class="progress-container">
+              <div class="progress-bar" id="nodejs-progress"></div>
+            </div>
+            <ul class="topics-list">
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">01</span>
+                <span>Installing and Exploring NodeJS</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">02</span>
+                <span>Fundamentals</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">03</span>
+                <span>NodeJS Module System</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">04</span>
+                <span>HTTP Module</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">05</span>
+                <span>Async and Await</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">06</span>
+                <span>Web Servers</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">07</span>
+                <span>API Auth and Security</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">08</span>
+                <span>Application Deployment</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="module" id="mongodb-module">
+            <h2 class="module-title">06 Mongo DB</h2>
+            <div class="progress-container">
+              <div class="progress-bar" id="mongodb-progress"></div>
+            </div>
+            <ul class="topics-list">
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('mongodb')"
+                />
+                <span class="topic-number">01</span>
+                <span>Introduction</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('mongodb')"
+                />
+                <span class="topic-number">02</span>
+                <span>Installing MongoDB</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('mongodb')"
+                />
+                <span class="topic-number">03</span>
+                <span>Databases and MongoDB</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('mongodb')"
+                />
+                <span class="topic-number">04</span>
+                <span>Mongoose</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('mongodb')"
+                />
+                <span class="topic-number">05</span>
+                <span>CRUD operations and Querying in MongoDB</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('mongodb')"
+                />
+                <span class="topic-number">06</span>
+                <span>Operators in MongoDB</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('mongodb')"
+                />
+                <span class="topic-number">07</span>
+                <span>MongoDB Aggregation Framework</span>
+              </li>
+            </ul>
+          </div>
+          <div class="module" id="nodejs-module">
+            <h2 class="module-title">07 Express JS</h2>
+            <div class="progress-container">
+              <div class="progress-bar" id="nodejs-progress"></div>
+            </div>
+            <ul class="topics-list">
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">01</span>
+                <span>Installing and Setting Up Express</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">02</span>
+                <span>Fundamentals</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">03</span>
+                <span>Middleware (Built-in, Third-party, Custom) </span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">04</span>
+                <span>Request and Response Handling</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">05</span>
+                <span>Modular Routing with Router</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">06</span>
+                <span
+                  >Serving Static Files and Templating Engines (EJS, Pug)</span
+                >
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">07</span>
+                <span>Error Handling in Express</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">08</span>
+                <span>Environment Variables</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">09</span>
+                <span>RESTful API Design</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">10</span>
+                <span>Connecting with Databases (MongoDB, SQL)</span>
+              </li>
+
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">11</span>
+                <span>Authentication and Authorization</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">12</span>
+                <span
+                  >File Uploads (Multer) and Input Validation and
+                  Sanitization</span
+                >
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">13</span>
+                <span>Using CORS in Express</span>
+              </li>
+
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('nodejs')"
+                />
+                <span class="topic-number">14</span>
+                <span>Deployment of Express Applications</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Fullstack Track -->
+        <div id="fullstack" class="track-content">
+          <div class="module">
+            <h2 class="module-title">
+              Frontend Modules (HTML, CSS, JavaScript, React)
+            </h2>
+            <p style="margin-bottom: 20px; color: #666">
+              Includes all topics from the Frontend Track
+            </p>
+            <a
+              href="#frontend"
+              class="btn"
+              onclick="switchToTrack('frontend'); return false;"
+            >
+              <span>View Frontend Topics</span>
+            </a>
+          </div>
+
+          <div class="module">
+            <h2 class="module-title">Backend Modules (NodeJS, MongoDB)</h2>
+            <p style="margin-bottom: 20px; color: #666">
+              Includes all topics from the Backend Track
+            </p>
+            <a
+              href="#backend"
+              class="btn"
+              onclick="switchToTrack('backend'); return false;"
+            >
+              <span>View Backend Topics</span>
+            </a>
+          </div>
+
+          <div class="module" id="fullstack-module">
+            <h2 class="module-title">Fullstack Integration</h2>
+            <div class="progress-container">
+              <div class="progress-bar" id="fullstack-progress"></div>
+            </div>
+            <ul class="topics-list">
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('fullstack')"
+                />
+                <span class="topic-number">01</span>
+                <span>Connecting Frontend and Backend</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('fullstack')"
+                />
+                <span class="topic-number">02</span>
+                <span>Building RESTful APIs</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('fullstack')"
+                />
+                <span class="topic-number">03</span>
+                <span>Authentication and Authorization</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('fullstack')"
+                />
+                <span class="topic-number">04</span>
+                <span>State Management in Fullstack Apps</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('fullstack')"
+                />
+                <span class="topic-number">05</span>
+                <span>Deployment Strategies</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('fullstack')"
+                />
+                <span class="topic-number">06</span>
+                <span>Performance Optimization</span>
+              </li>
+              <li class="topic-item">
+                <input
+                  type="checkbox"
+                  class="topic-checkbox"
+                  onchange="updateProgress('fullstack')"
+                />
+                <span class="topic-number">07</span>
+                <span>Make A Good Project</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>SkillForge</h3>
+            <p>
+              Empowering the next generation of web developers with
+              comprehensive, project-based learning.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h3>Tracks</h3>
+            <ul>
+              <li><a href="#frontend">Frontend Development</a></li>
+              <li><a href="#backend">Backend Development</a></li>
+              <li><a href="#fullstack">Fullstack Development</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 SkillForge. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
